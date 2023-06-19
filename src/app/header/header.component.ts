@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  slogan: string='Your one shop stop for evrything.';
+  source: string='/assets/shopping.jpeg';
+  newslogan(){
+    return 'this is a new slogan fro WEB.';
+  }
 
 }
