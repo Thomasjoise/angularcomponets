@@ -1,0 +1,28 @@
+/* 
+.site-img{
+    margin-inline: 5% 10%;
+    writing-mode: horizontal-tb;
+}  */
+
+h2 {
+    color: rgb(116, 173, 0);
+}
+
+.header {
+    padding: 30px 40px;
+    display: flex;
+    height: 280px;
+    background-color: aliceblue;
+}
+
+.site-logan {
+    color: rgb(211, 28, 28);
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.site-img {
+    margin-right: 10%;
+    writing-mode: horizontal-tb;
+}
+

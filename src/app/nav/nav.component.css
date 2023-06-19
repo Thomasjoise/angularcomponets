@@ -1,0 +1,22 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(145, 161, 161);
+}
+
+.site-name {
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+}
+
+.site-menu {
+    padding: 10px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
