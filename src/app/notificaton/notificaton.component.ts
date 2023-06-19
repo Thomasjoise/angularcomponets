@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./notificaton.component.css']
 })
 export class NotificatonComponent {
+  displaynotification:boolean = true;
 
 }
