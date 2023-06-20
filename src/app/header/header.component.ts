@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   slogan: string='Your one shop stop for evrything.';
-  source: string='/assets/shopping.jpeg';
+  source:string ='/assets/shopping.jpeg';
   newslogan(){
     return 'this is a new slogan fro WEB.';
   }

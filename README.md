@@ -29,3 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Bootstrap
 
 To get bootstrap in angular use `npm install --save bootstrap`
+
+## To link two components in Angular 
+and communicate between them, you can use various techniques such as services, input/output properties, or a state management library like NgRx or Akita.
+`ng generate service shared/notification-command.service`

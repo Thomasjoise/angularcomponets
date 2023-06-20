@@ -1,6 +1,8 @@
 
-
 <div class="alert alert-danger" [hidden]="displaynotification">
+    <button class="close-button" (click)="closenotificationbar()">&times;</button>
     <p>This website uses cookies to provide better user experience</p>
+    <p>{{ command }}</p>
+      
 </div>
-<div class="notificaton-bar"></div>
+

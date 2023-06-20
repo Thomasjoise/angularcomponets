@@ -5,7 +5,11 @@ import { AppComponent } from './app.component';
 import { ContainerComponent } from './Container/container.component';
 import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
-import { NotificatonComponent } from './notificaton/notificaton.component';
+import { NotificationComponent } from './notificaton/notificaton.component';
+import { SearchComponent } from './search/search.component';
+import { TerminalComponent } from './terminal/terminal.component';
+import { FormsModule } from '@angular/forms';
+import { NotificationCommandService } from './shared/notification-command.service.service';
 
 @NgModule({
   declarations: [
@@ -13,12 +17,17 @@ import { NotificatonComponent } from './notificaton/notificaton.component';
     ContainerComponent,
     NavComponent,
     HeaderComponent,
-    NotificatonComponent
+    NotificationComponent,
+    SearchComponent,
+    TerminalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
+  
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [NotificationCommandService],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
+

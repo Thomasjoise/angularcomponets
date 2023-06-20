@@ -1,0 +1,31 @@
+.terminal {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .terminal p {
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .terminal input {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    width: 100%;
+  }
+  
+  .terminal .output {
+    color: lime;
+  }
+  
+  .terminal .error {
+    color: red;
+  }
+  

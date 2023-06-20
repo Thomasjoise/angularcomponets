@@ -1,0 +1,7 @@
+
+<div class="terminal" [hidden]="displayterminal">
+  <p>>><input type="text" [(ngModel)]="command" (input)="executeCommand()"></p>
+  <p class="output" *ngIf="closenotificationbar"></p>
+  <p class="error">{{ errorMessage }}</p>
+</div>
+  
